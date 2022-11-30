@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    font-size: 1.2rem;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+img{
+    /* PARA A IMAGEM TER UM TAMANHO MAXIMO NO CONTAINER */
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* AQUI É A ul */
+.menu{ 
+    display: flex;
+
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+/* SECTION FLEX */
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* PARA A OS ITENS OCUPAREM UMA CERTA AREA SO DO CONTAINER */
+    max-width: 1900px;
+    /* PARA ALINHAR AO CENTRO TUDO  */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex > div {
+/* O PRIMEIRO NUMERO É PARA EXPANDIR, O SEGUNDO DIMINUIR E O TERCEIRO É UM TAMANHO BASE  */
+    flex: 1 1 610px;  
+    margin: 10px;
+}
+
